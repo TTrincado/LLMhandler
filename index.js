@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import embedRoute from './api/embed.js';
-import completionsRoute from './api/completions.js';
+import completionsRoute from './api/completion.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
